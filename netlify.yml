@@ -1,0 +1,15 @@
+# https://github.com/philhawksworth/demo-netlify-plugin-fetch-feed/blob/master/netlify.yml
+build:
+  command: npm run build
+  publish: dist
+  NODE_ENV: 10.15.3
+
+# Config file `plugins` defines plugins used by build.
+plugins:
+  - netlify-plugin-axe:
+    # type: ./path-to-plugin-file | npm-module-name
+    type: netlify-plugin-fetch-feeds
+    config:
+      site: mycoolsite.netlify.com # your Netlify site url
+      # https://github.com/dequelabs/axe-cli#running-specific-rules
+      axeFlags: --rules color-contrast,html-has-lang
