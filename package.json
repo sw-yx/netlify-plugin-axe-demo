@@ -1,6 +1,6 @@
 {
   "devDependencies": {
     "axe-cli": "^3.2.0",
-    "netlify-plugin-axe": "^0.0.1"
+    "netlify-plugin-axe": "^0.0.2"
   }
 }

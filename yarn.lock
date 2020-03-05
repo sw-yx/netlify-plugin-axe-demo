@@ -541,10 +541,10 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-netlify-plugin-axe@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/netlify-plugin-axe/-/netlify-plugin-axe-0.0.1.tgz#c0741268b317bcf8cc4f7449cb8133f6567ee9cc"
-  integrity sha512-fCXRhatAnXfYzgGkOo2QcWzUaUuBPgR6a3DpZ4GMpEA71/8Q5/tHOHnxW/ihYGv+j5wCvXK8TPdSyS/V1Ts0Qg==
+netlify-plugin-axe@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/netlify-plugin-axe/-/netlify-plugin-axe-0.0.2.tgz#5b5f0a9c46c44a25d7fcd3f5a7a0146dec074075"
+  integrity sha512-bIdemwKgYgIwNouOOCjXzQMc5tJPQdSCT9J1i7rsC+/dq4cVNyNQgl1pCzcryfikAiMx8aNyPmOusLNZC65Tcg==
   dependencies:
     execa "^4.0.0"
     make-dir "^3.0.0"
