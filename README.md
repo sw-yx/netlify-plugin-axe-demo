@@ -3,6 +3,7 @@
 Experimenting with the plugin architecture to run Axe checks on Netlify sites
 
 Example site: https://netlify-plugin-axe-demo.netlify.com
+Logs: https://app.netlify.com/sites/netlify-plugin-axe-demo/deploys/5e6152444eea8a00098c6e64
 
 This demonstrates use of the following Netlify Plugins:
 

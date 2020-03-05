@@ -10,4 +10,4 @@ plugins:
     config:
       site: netlify-plugin-axe-demo.netlify.com # your Netlify site url
       # https://github.com/dequelabs/axe-cli#running-specific-rules
-      axeFlags: --rules color-contrast,html-has-lang
+      axeFlags: --tags wcag2a
