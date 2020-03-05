@@ -1,6 +1,6 @@
 # https://github.com/philhawksworth/demo-netlify-plugin-fetch-feed/blob/master/netlify.yml
 build:
-  command: npm run build
+  command: #
   publish: dist
   NODE_ENV: 10.15.3
 
