@@ -6,9 +6,7 @@ build:
 
 # Config file `plugins` defines plugins used by build.
 plugins:
-  - netlify-plugin-axe:
-    # type: ./path-to-plugin-file | npm-module-name
-    type: netlify-plugin-fetch-feeds
+  - package: netlify-plugin-axe
     config:
       site: mycoolsite.netlify.com # your Netlify site url
       # https://github.com/dequelabs/axe-cli#running-specific-rules

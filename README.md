@@ -35,9 +35,8 @@ This is how the config is set up.
 
 ```yaml
 plugins:
-  - netlify-plugin-axe:
-    # type: ./path-to-plugin-file | npm-module-name
-    type: netlify-plugin-fetch-feeds
+  plugin-axe:
+    type: netlify-plugin-axe
     config:
       site: mycoolsite.netlify.com # your Netlify site url
       # https://github.com/dequelabs/axe-cli#running-specific-rules
