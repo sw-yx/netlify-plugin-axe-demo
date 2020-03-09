@@ -5,7 +5,7 @@
     "netlify-plugin-axe": "^0.0.4"
   },
   "scripts": {
-    "postinstall": "cd node_modules/axe-cli && npm install chromedriver"
+    "postinstall": "export PATH=$PATH:/opt/build/repo/node_modules/bin >> ~/.profile"
   },
   "name": "netlify-plugin-axe-demo",
   "version": "1.0.0",
