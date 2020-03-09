@@ -1,6 +1,13 @@
 {
   "devDependencies": {
     "axe-cli": "^3.2.0",
-    "netlify-plugin-axe": "^0.0.2"
-  }
+    "netlify-plugin-axe": "^0.0.3"
+  },
+  "name": "netlify-plugin-axe-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": "https://github.com/sw-yx/netlify-plugin-axe-demo",
+  "author": "swyx <shawnthe1@gmail.com>",
+  "license": "MIT"
 }
