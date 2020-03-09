@@ -2,7 +2,7 @@
   "devDependencies": {
     "axe-cli": "^3.2.0",
     "chromedriver": "^80.0.1",
-    "netlify-plugin-axe": "^0.0.3"
+    "netlify-plugin-axe": "^0.0.4"
   },
   "name": "netlify-plugin-axe-demo",
   "version": "1.0.0",
