@@ -131,7 +131,7 @@ buffer-from@^1.0.0:
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
   integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
 
-chromedriver@latest:
+chromedriver@^80.0.1, chromedriver@latest:
   version "80.0.1"
   resolved "https://registry.yarnpkg.com/chromedriver/-/chromedriver-80.0.1.tgz#35c1642e2d864b9e8262f291003e455b0e422917"
   integrity sha512-VfRtZUpBUIjeypS+xM40+VD9g4Drv7L2VibG/4+0zX3mMx4KayN6gfKETycPfO6JwQXTLSxEr58fRcrsa8r5xQ==
