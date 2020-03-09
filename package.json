@@ -4,6 +4,9 @@
     "chromedriver": "^80.0.1",
     "netlify-plugin-axe": "^0.0.4"
   },
+  "scripts": {
+    "postinstall": "cd node_modules/axe-cli && npm install chromedriver"
+  },
   "name": "netlify-plugin-axe-demo",
   "version": "1.0.0",
   "main": "index.js",
