@@ -14,7 +14,7 @@
 #      axeFlags = "--tags wcag2a"
 
 
-[[plugins]]
+[plugins]
   package = "./localAxe"
     [plugins.inputs]
       site = "netlify-plugin-axe-demo.netlify.com" # your Netlify site url
