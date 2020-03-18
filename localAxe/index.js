@@ -21,10 +21,12 @@ function netlifyPlugin(conf) {
         .replace(cwd(), '')
         .replace(/^\//, '');
 
-      const chromePath = path.join(
-        __dirname,
-        'node_modules/lib/chromedriver/chromedriver_mac64.zip'
-      );
+      const chromePath =
+        './node_modules/lib/chromedriver/chromedriver_mac64.zip';
+      // const chromePath = path.join(
+      //   __dirname,
+      //   'node_modules/lib/chromedriver/chromedriver_mac64.zip'
+      // );
 
       await run.command(
         // `./node_modules/.bin/axe ${site} ${axeFlags} --save ${resultsPath}`
