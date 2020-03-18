@@ -1,5 +1,5 @@
 # https://github.com/philhawksworth/demo-netlify-plugin-fetch-feed/blob/master/netlify.yml
-[[build]]
+[build]
   command = "echo 'hi'"
   publish = "dist"
 
@@ -14,7 +14,7 @@
 #      axeFlags = "--tags wcag2a"
 
 
-[plugins]
+[[plugins]]
   package = "./localAxe"
     [plugins.inputs]
       site = "netlify-plugin-axe-demo.netlify.com" # your Netlify site url
