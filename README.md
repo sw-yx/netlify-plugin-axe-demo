@@ -7,7 +7,7 @@ Logs: https://app.netlify.com/sites/netlify-plugin-axe-demo/deploys/5e6152444eea
 
 This demonstrates use of the following Netlify Plugins:
 
-- [netlify-plugin-axe-demo](https://github.com/sw-yx/netlify-plugin-axe)
+- [netlify-plugin-axe](https://github.com/sw-yx/netlify-plugin-axe)
 
 ## Usage
 
@@ -35,15 +35,16 @@ netlify-build
 This is how the config is set up.
 
 ```yaml
-plugins:
-  plugin-axe:
-    type: netlify-plugin-axe
-    config:
-      site: mycoolsite.netlify.com # your Netlify site url
+[[plugins]]
+  package = "netlify-plugin-axe"
+    [plugins.inputs]
+      site = "mycoolsite.netlify.com" # your Netlify site url
       # https://github.com/dequelabs/axe-cli#running-specific-rules
-      axeFlags: --rules color-contrast,html-has-lang
+      axeFlags = "--rules color-contrast,html-has-lang"
 ```
 
 ## Known issues
 
+- https://www.netlify.com/build/plugins-beta/
+- `netlify api updateSite --data='{ "site_id": "418b94bc-...", "body": { "netlify_build_enabled": true  }}'`
 - tbc
