@@ -1,7 +1,7 @@
 # https://github.com/philhawksworth/demo-netlify-plugin-fetch-feed/blob/master/netlify.yml
 [[build]]
-  command: echo "your build command goes here"
-  publish: dist
+  command = "echo 'hi'"
+  publish = "dist"
 
 
 
