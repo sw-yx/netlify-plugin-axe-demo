@@ -1,3 +1,4 @@
+const path = require('path');
 const {
   cwd,
   env: { SITE }
